@@ -19,6 +19,8 @@ public class BinarySearchTest {
     @Test
     public void testBasicScenario(){
         //call method on binary search
+        int result = binarySearch.binarySearch(new int[]{}, 5);
+        assertEquals(3, result);
 
     }
 
